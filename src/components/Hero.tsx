@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background decorations */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-indigo-50 rounded-full blur-3xl opacity-50 -z-10" />
       <div className="absolute top-40 -right-20 w-72 h-72 bg-emerald-50 rounded-full blur-3xl opacity-50 -z-10" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center max-w-4xl mx-auto">
           <motion.div
@@ -17,9 +17,9 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-700 font-medium text-sm mb-8 border border-indigo-100"
           >
             <span className="flex h-2 w-2 rounded-full bg-indigo-600"></span>
-            Lumina 2.0 is now live
+            Impetus is live
           </motion.div>
-          
+
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ export default function Hero() {
               we'll handle the rest.
             </span>
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ export default function Hero() {
           >
             The modern learning management system that empowers educators to teach and students to thrive, without the administrative friction.
           </motion.p>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ export default function Hero() {
                   <div className="h-3 w-32 bg-slate-100 rounded-sm" />
                 </div>
               </div>
-              
+
               {/* Mock Dashboard Content */}
               <div className="p-6 grid grid-cols-12 gap-6 h-[400px]">
                 {/* Sidebar */}
@@ -91,7 +91,7 @@ export default function Hero() {
                     </div>
                   ))}
                 </div>
-                
+
                 {/* Main Content */}
                 <div className="col-span-12 md:col-span-9 space-y-6">
                   <div className="flex justify-between items-center">
@@ -101,7 +101,7 @@ export default function Hero() {
                     </div>
                     <div className="h-10 w-32 bg-indigo-600 rounded-lg" />
                   </div>
-                  
+
                   <div className="grid grid-cols-3 gap-4">
                     {[
                       { icon: Users, color: 'text-blue-500', bg: 'bg-blue-50' },
@@ -117,7 +117,7 @@ export default function Hero() {
                       </div>
                     ))}
                   </div>
-                  
+
                   <div className="h-48 rounded-xl border border-slate-100 bg-slate-50 p-4">
                     <div className="h-4 w-32 bg-slate-200 rounded-md mb-4" />
                     <div className="space-y-3">

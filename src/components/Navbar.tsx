@@ -13,9 +13,9 @@ export default function Navbar() {
             <div className="bg-indigo-600 p-2 rounded-lg">
               <BookOpen className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-slate-900">Lumina</span>
+            <span className="text-xl font-bold text-slate-900">Impetus</span>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-slate-600 hover:text-indigo-600 transition-colors">Features</a>
             <a href="#solutions" className="text-slate-600 hover:text-indigo-600 transition-colors">Solutions</a>
@@ -38,7 +38,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-4"

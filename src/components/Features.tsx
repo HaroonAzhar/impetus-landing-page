@@ -10,13 +10,6 @@ const features = [
     bg: 'bg-indigo-50',
   },
   {
-    icon: Users,
-    title: 'Collaborative Learning',
-    description: 'Foster a sense of community with built-in discussion boards, group projects, and peer reviews.',
-    color: 'text-emerald-600',
-    bg: 'bg-emerald-50',
-  },
-  {
     icon: BarChart3,
     title: 'Actionable Analytics',
     description: 'Track student progress, identify at-risk learners, and measure course effectiveness with real-time data.',
@@ -29,20 +22,6 @@ const features = [
     description: 'Save hours of administrative work with automated quizzes, rubrics, and instant feedback tools.',
     color: 'text-rose-600',
     bg: 'bg-rose-50',
-  },
-  {
-    icon: Shield,
-    title: 'Secure & Compliant',
-    description: 'Rest easy knowing your data is protected with enterprise-grade security and FERPA/GDPR compliance.',
-    color: 'text-blue-600',
-    bg: 'bg-blue-50',
-  },
-  {
-    icon: Zap,
-    title: 'Seamless Integrations',
-    description: 'Connect Lumina with your favorite tools like Zoom, Google Workspace, and Microsoft Teams.',
-    color: 'text-purple-600',
-    bg: 'bg-purple-50',
   },
 ];
 
