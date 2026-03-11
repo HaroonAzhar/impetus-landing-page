@@ -27,7 +27,7 @@ export default function Hero() {
             className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.1] mb-8"
           >
             Focus on learning, <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-emerald-500">
+            <span className="text-[#513af7]">
               we'll handle the rest.
             </span>
           </motion.h1>

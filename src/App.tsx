@@ -19,7 +19,6 @@ export default function App() {
         <Hero />
         <Features />
         <Solutions />
-        <Testimonials />
         <CTA />
       </main>
       <Footer />

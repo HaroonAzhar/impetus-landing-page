@@ -7,10 +7,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-16">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <div className="bg-indigo-600 p-2 rounded-lg">
-                <BookOpen className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">Lumina</span>
+              <img src="/logo-icon.png" alt="Impetus Logo" className="h-8 w-8 object-contain" />
+              <span className="text-xl font-bold text-white">Impetus</span>
             </div>
             <p className="text-slate-400 mb-8 max-w-sm leading-relaxed">
               Empowering teachers and students to focus on learning. The modern LMS built for the future of education.
@@ -30,7 +28,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-white font-semibold mb-6">Product</h4>
             <ul className="space-y-4">
@@ -41,7 +39,7 @@ export default function Footer() {
               <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Docs</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-white font-semibold mb-6">Solutions</h4>
             <ul className="space-y-4">
@@ -51,7 +49,7 @@ export default function Footer() {
               <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Bootcamps</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-4">
@@ -63,7 +61,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} Lumina Education Inc. All rights reserved.
