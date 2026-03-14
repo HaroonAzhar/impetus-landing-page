@@ -28,7 +28,7 @@ export default function Hero() {
           >
             Focus on learning, <br className="hidden md:block" />
             <span className="text-[#513af7]">
-              we'll handle the rest.
+              Impetus handle the rest.
             </span>
           </motion.h1>
 
